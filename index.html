@@ -1,78 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Your Blog Name</title>
-  <style>
-    body {
-      background: #e6e6e6;
-      font-family: Verdana, Arial, sans-serif;
-      font-size: 14px;
-      margin: 0;
-    }
-
-    #container {
-      width: 800px;
-      margin: 20px auto;
-      background: white;
-      border: 1px solid #999;
-    }
-
-    #header {
-      background: #003366;
-      color: white;
-      padding: 15px;
-    }
-
-    #content {
-      display: flex;
-    }
-
-    #main {
-      width: 560px;
-      padding: 15px;
-    }
-
-    #sidebar {
-      width: 240px;
-      background: #f2f2f2;
-      padding: 15px;
-      border-left: 1px solid #ccc;
-    }
-
-    a {
-      color: #003399;
-      text-decoration: underline;
-    }
-
-    h1, h2 {
-      font-family: Georgia, "Times New Roman", serif;
-    }
-  </style>
+  <title>yourdomain.org :: index</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="viewport" content="width=1024">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div id="container">
+
     <div id="header">
-      <h1>Your Blog</h1>
-      <p>Thoughts on tech, code, and the internet</p>
+      <h1>Maren J. Adnee</h1>
+    </div>
+
+    <div id="nav">
+      <a href="index.html">about</a>|
+      <a href="cv.pdf">cv</a>
     </div>
 
     <div id="content">
       <div id="main">
-        <h2>First Post</h2>
-        <p><em>January 2006</em></p>
-        <p>Welcome to my retro tech blog.</p>
-      </div>
 
-      <div id="sidebar">
-        <h3>Links</h3>
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Archives</a></li>
-          <li><a href="#">RSS</a></li>
-        </ul>
+        <div class="section">
+          <h2>about</h2>
+          <p>
+            I am a PhD student and NSF Graduate Research Fellow at Yale University in the Physics Department.
+            I am researching quantum materials, superconductivity, and 
+            magnetic phenomena under the supervision of
+            Dr. Eduardo da Silva Neto. <br> 
+            
+            I previously completed my undergraduate education at
+            the University of Maine where i was supervised by Dr. Nicholas Bingham and Dr. Andre Khalil.<br><br>
+          </p>
+        </div>
+
+        <div class="section">
+          <h2>meta</h2>
+          <p class="meta">
+            current location: Elm City <br>
+            email: maren.adnee[at]yale[dot]edu<br>
+          </p>
+        </div>
+
       </div>
     </div>
+
   </div>
 </body>
 </html>
